@@ -1,0 +1,157 @@
+
+Administrador@CW-TRADING MINGW64 ~
+$
+
+Administrador@CW-TRADING MINGW64 ~
+$ cd desktop
+
+Administrador@CW-TRADING MINGW64 ~/desktop (master)
+$ ls
+ 12/
+'ALEJORVA 8B'/
+'ANDREW GARCIA  RRHH.xlsx'
+'AnyDesk (3).exe'*
+'Carta y firmas.docx'
+'Docker Desktop.lnk'*
+'Documentos - Acceso directo.lnk'*
+'Ejemplo 1'/
+'Google Chrome.lnk'*
+ LDMultiPlayer.lnk*
+'LDPlayer 9.lnk'*
+'Laboratorio 11'/
+'Laboratorio 12'/
+'Laboratorio 4'/
+'Laboratorio 4 yassiry tejeda'/
+'Laboratorio 4 yassiry tejeda.rar'
+'Laboratorio 9'/
+'Laboratorio 9.rar'
+ Laboratorio#1ALEXANDERCHOLES/
+ Laboratoriobryan/
+'Microsoft Edge.lnk'*
+'Microsoft Teams.lnk'*
+'Navegador Opera GX.lnk'*
+'Nueva carpeta (2)'/
+'Roblox Player.lnk'*
+'Roblox Studio.lnk'*
+'TECNOLOGIA DE LA INFORMACION Y LA COMUNICACIÓN.docx'
+'TECNOLOGIA DE LA INFORMACION Y LA COMUNICACIÓN.pdf'
+ TLauncher.lnk*
+'Visual Studio Code.lnk'*
+ desktop.ini
+ kendris25/
+ kendris25.rar
+'laboratorio 8 yassiry tejeda'/
+'laboratorio 8 yassiry tejeda.rar'
+'lavoratorio secion 2'/
+ mi-pagina-web/
+ mi-proyecto/
+ miproyectogithub.io/
+ yassiry/
+ yes/
+ yeslith/
+ yess/
+ yesss/
+
+Administrador@CW-TRADING MINGW64 ~/desktop (master)
+$ cd mi-pagina-web
+
+Administrador@CW-TRADING MINGW64 ~/desktop/mi-pagina-web (master)
+$ git init
+Initialized empty Git repository in C:/Users/Administrador/Desktop/mi-pagina-web/.git/
+
+Administrador@CW-TRADING MINGW64 ~/desktop/mi-pagina-web (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrador@CW-TRADING MINGW64 ~/desktop/mi-pagina-web (master)
+$ git add .
+
+Administrador@CW-TRADING MINGW64 ~/desktop/mi-pagina-web (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+
+Administrador@CW-TRADING MINGW64 ~/desktop/mi-pagina-web (master)
+$ git commit -m "mi pagina web"
+[master (root-commit) d2871e9] mi pagina web
+ 1 file changed, 47 insertions(+)
+ create mode 100644 index.html
+
+Administrador@CW-TRADING MINGW64 ~/desktop/mi-pagina-web (master)
+$ git log
+commit d2871e9c39565cd8e3929fdd78f0b4657e1e32d8 (HEAD -> master)
+Author: ¨yes <vergarapadillabrayan@gmail.com>
+Date:   Tue Nov 26 19:52:38 2024 -0500
+
+    mi pagina web
+
+Administrador@CW-TRADING MINGW64 ~/desktop/mi-pagina-web (master)
+$ git branch main
+
+Administrador@CW-TRADING MINGW64 ~/desktop/mi-pagina-web (master)
+$ git checkout main
+Switched to branch 'main'
+
+Administrador@CW-TRADING MINGW64 ~/desktop/mi-pagina-web (main)
+$ git remote add origin https://github.com/Bryan1105-2003/mi-pagina-web.git
+
+Administrador@CW-TRADING MINGW64 ~/desktop/mi-pagina-web (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 1.03 KiB | 1.03 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Bryan1105-2003/mi-pagina-web.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Administrador@CW-TRADING MINGW64 ~/desktop/mi-pagina-web (main)
+$
+Administrador@CW-TRADING MINGW64 ~/desktop/mi-pagina-web (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrador@CW-TRADING MINGW64 ~/desktop/mi-pagina-web (main)
+$ git add .
+
+Administrador@CW-TRADING MINGW64 ~/desktop/mi-pagina-web (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+
+Administrador@CW-TRADING MINGW64 ~/desktop/mi-pagina-web (main)
+$ git commit -m"se agrego un formulario de contacto"
+[main 65fe6e6] se agrego un formulario de contacto
+ 1 file changed, 9 insertions(+)
+
+Administrador@CW-TRADING MINGW64 ~/desktop/mi-pagina-web (main)
+$
